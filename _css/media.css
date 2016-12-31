@@ -1,0 +1,36 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 29/12/2016, 15:34:48
+    Author     : carlos
+*/
+
+@charset "UTF-8";
+
+div#tv-radio{
+    width: 900px;
+    height: 580px;
+    margin: auto;       /* centralizar a url no meio da div */
+    background: url("../_imagens/radio-tv.png") no-repeat;
+                        /* no-repeat significa que caso haja um problema , so uma imagem sera msotrada */
+}
+
+audio#musica{
+    display: block;
+    position: relative;
+    left: 575px;
+    top: 500px;
+    width: 300px;
+}
+
+video#filme{
+    display: block;
+    position: relative;
+    left: 85px;
+    top: 65px;
+    width: 450px;
+}
+

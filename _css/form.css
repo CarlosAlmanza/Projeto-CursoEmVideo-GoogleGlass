@@ -1,0 +1,58 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 29/12/2016, 16:08:30
+    Author     : carlos
+*/
+@charset "UTF-8";
+
+form{
+    width: 500px;
+    margin: auto;
+}
+
+input,textArea{
+    font-family: sans-serif; /* tira a serifa das palavras */
+    font-weight: normal;    /* tira o negrito das palavras */
+    font-size: 13pt;
+    background-color: rgba(255,255,255,.8);
+}
+
+input:hover , textArea:hover{
+    background-color: #dddddd;
+}
+
+legend{
+    color:#888888;
+    font-weight: bold;  /* poe negrito nessa palavras */
+    font-size: 13pt;
+    font-family: sans-serif;
+}
+
+fieldset{
+    border-color:  #cecece;
+    margin: 20px;
+}
+
+fieldset#sexo{
+    width: 150px;
+}
+
+fieldset#usuario{
+    background: url(../_imagens/icone-contato.png) no-repeat 95% 95%; /* é o 95% que posiciona a imagem dentro desse campo */
+}
+
+fieldset#endereco{
+    background: url(../_imagens/icone-endereco.png) no-repeat 95% 95%; /* é o 95% que posiciona a imagem dentro desse campo */
+}
+
+fieldset#mensagem{
+    background: url(../_imagens/icone-mensagem.png) no-repeat 95% 95%; /* é o 95% que posiciona a imagem dentro desse campo */
+}
+
+fieldset#pedido{
+    background: url(../_imagens/icone-pagamento.png) no-repeat 95% 95%; /* é o 95% que posiciona a imagem dentro desse campo */
+}

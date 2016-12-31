@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+         <script>            
+             var quebrada = false;
+            function mudaLampada(tipo){
+                if(tipo == 1){
+                    arquivo ="_imagens/lampada-quebrada.jpg";
+                }
+                if(tipo == 2){
+                    arquivo = "_imagens/lampada-acesa.jpg";
+                }
+                if(tipo == 3){
+                    arquivo = src="_imagens/lampada-apagada.jpg";                 
+                }
+                if(!quebrada){
+                    document.getElementById("luz").src=arquivo;
+                    if(tipo == 1){
+                        quebrada = true;
+                    }                    
+                }
+            }                                                            
+        </script>
+        
+    </head>
+    <body>
+        <h1>Acenda A Lampada !!!</h1>       
+        <img src="_imagens/lampada-apagada.jpg" id="luz" onclick="mudaLampada(1)" onmousemove="mudaLampada(2)" onmouseout="mudaLampada(3)" />
+    </body>
+</html>
